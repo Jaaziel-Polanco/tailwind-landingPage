@@ -1,0 +1,10 @@
+header {
+    background-image: url('../public/images/bg-hero-mobile.svg');
+}
+
+@media (min-width: 600px){
+    header {
+        background-image: url('../public/images/bg-hero-desktop.svg');
+    }
+    
+}
