@@ -7,7 +7,7 @@ const Header = () => {
       <div className="flex justify-between items-center mb-20">
 
        <div className="w-32 ml-4 desktop:w-52">
-        <img src="../public/images/logo.svg" alt="logo" /></div> 
+        <img src="public/images/logo.svg" alt="logo" /></div> 
          <button className="text-sm border rounded-full px-7 py-1 mr-4 bg-white text-neutral-200 font-open font-bold shadow-[0_4px_8px_rgba(0,0,0,0.1),0_-4px_8px_rgba(0,0,0,0.1)] transition-all animate-bounce hover:text-neutral-300 hover:py-2 desktop:py-4 desktop:px-14 desktop:hover:py-5">
           Try It Free</button>
       </div>
@@ -27,7 +27,8 @@ Create connections with your users as you engage in genuine discussion.</p>
   </div>
 
  <div className="mx-7 my-12 desktop:my-0">
-  <img className='animate-spin animate-once animate-duration-[1700ms] animate-ease-in-out animate-alternate-reverse animate-fill-both' src="../public/images/illustration-mockups.svg"/></div> 
+  <img className='animate-spin animate-once animate-duration-[1700ms] animate-ease-in-out animate-alternate-reverse animate-fill-both' 
+  src="public/images/illustration-mockups.svg"/></div> 
 
 </div>
 </header>

@@ -10,7 +10,7 @@ const Target = ({img,title,info,}) => {
        <p className='hidden desktop:block'>{info}</p></div>
 
        <img className='mb-16 my-5 desktop:w-96 desktop:mr-5'
-       src={`/public/images/illustration-${img}`}/>
+       src={`public/images/illustration-${img}`}/>
 
        <h1 className='font-poppins text-2xl text-neutral-200 mb-5 desktop:hidden'>
         {title}</h1>
